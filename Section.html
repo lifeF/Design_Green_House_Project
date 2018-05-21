@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+        crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- nav bara start -->
+    <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="Assets/icon.png" width="30" height="30" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+
+            </ul>
+
+        </div>
+    </nav>
+    <!-- nav bar end  -->
+
+    <div class="container">
+        <div class="col-xs-12" style="height:20px;"></div>
+        <div class="row">
+            <!-- plant card -->
+            <div class="col-lg-6">
+                <div class="card" style="width: 100%;">
+                    <div class="card-header">
+                        <div class="row" style="margin-bottom:0;margin-top:3px;font-family: Aller Light;font-size: 15px">
+                            <div class="col-lg-6">
+                                ID of Plant
+                            </div>
+                            <div class="col-lg-6 text-right">
+                                01
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <img src="Assets/Plant.png" width="105%" height="auto" alt="">
+                            </div>
+
+                            <div class="col-sm-3">
+                                <div class="card" style="width: 100%;height: 100%;">
+                                    <p class="text-center" style="margin-bottom:0;margin-top:3px;font-family: Aller Light;font-size: 8px">Water level</p>
+                                    <hr style="margin:2px">
+                                    <div style="height: 100%">
+
+                                    </div>
+                                </div>
+                               
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="card" style="width: 100%;height: 100%;">
+                                    <p class="text-center" style="margin-bottom:0;margin-top:3px;font-family: Aller Light;font-size: 8px">Feritilizer level</p>
+                                    <hr style="margin:2px">
+                                    <div style="height: 100%">
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="card" style="width: 100%;height: 100%;">
+                                    <p class="text-center" style="margin-bottom:0;margin-top:3px;font-family: Aller Light;font-size: 8px">Temp level</p>
+                                    <hr style="margin:2px">
+                                    <div style="height: 100%">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
+                        <hr>
+                        <div class="row">
+                            <div class="col-lg-9">
+                                <p style="margin-bottom:0;margin-top:3px;font-family: Aller Light;font-size: 12px">
+                                    Click "More" to get more information about plant
+                                </p>
+                            </div>
+                            <div class="col-lg-3 text-right">
+                                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal">More</button>
+                            </div>
+
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <!-- plant card end  -->
+
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        
+                    </div>
+                    <div class="modal-body">
+                       <div class="row">
+                            <!-- plant card -->
+                            <div class="col-lg-12">
+                                <div class="card" style="width: 100%;">
+                                    
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-sm-3">
+                                                <img src="Assets/Plant.png" width="105%" height="auto" alt="">
+                                            </div>
+
+                                            <div class="col-sm-3">
+                                                <div class="card" style="width: 100%;height: 100%;">
+                                                    <p class="text-center" style="margin-bottom:0;margin-top:3px;font-family: Aller Light;font-size: 8px">Water level</p>
+                                                    <hr style="margin:2px">
+                                                    <div style="height: 100%">
+
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <div class="card" style="width: 100%;height: 100%;">
+                                                    <p class="text-center" style="margin-bottom:0;margin-top:3px;font-family: Aller Light;font-size: 8px">Feritilizer level</p>
+                                                    <hr style="margin:2px">
+                                                    <div style="height: 100%">
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <div class="card" style="width: 100%;height: 100%;">
+                                                    <p class="text-center" style="margin-bottom:0;margin-top:3px;font-family: Aller Light;font-size: 8px">Temp level</p>
+                                                    <hr style="margin:2px">
+                                                    <div style="height: 100%">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
+                                        
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- plant card end  -->
+                       </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+    </div>
+
+    <!-- footer -->
+    <footer style="padding: 10px; position: fixed; bottom: 0px;height: 50px;width: 100%;color:gray; font-family: Aller Light;font-size: 10px"
+        class="footer bg-light text-center ">
+        © 2018 RAD Green
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
