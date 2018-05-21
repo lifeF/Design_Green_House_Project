@@ -1,0 +1,72 @@
+.ms {
+     padding: 10%;
+     height: 100%;
+     margin: 0;
+     
+ }
+
+ .message {
+     background: lightgrey;
+     width: 100%;
+     height: 450px;
+     border-radius: 10px;
+ }
+
+.holder{
+    width: 100%;
+    height: auto;
+   
+   
+    
+}
+.greenHouseCard{
+    width: 33.33%;
+    height: 95%;
+    background: lightgray;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin:10px;
+     float: left;
+    
+}
+
+.headerIcon {
+    position: relative;
+    top:5%;
+    left: 30%;
+}
+.GHname{
+    padding-top:20%;
+    text-align: center;
+    font-family: Aller Light;
+    font-size:3em;
+    color: rgb(77, 77, 77);
+}
+.GHheader{
+    padding-top:10px; 
+    padding-left: 10px;
+    font-family: Aller Light;
+    font-size:1em;
+    color: rgb(77, 77, 77);
+}
+.details{
+    padding-top:20px; 
+    padding-left:15%; 
+    font-family: Aller Light;
+    font-size:1em;
+    color: rgb(77, 77, 77);
+}
+.hr{
+    position: relative;
+    
+    /* padding-top:20px;  */
+    padding-left:20px;
+    padding-right: 20px;
+}
+.GHaddress{
+    padding-top:10px;
+    padding-left: 20px;
+    font-family: Aller Light;
+    font-size:0.9em;
+    color: rgb(77, 77, 77);
+}
